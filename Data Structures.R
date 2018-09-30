@@ -100,6 +100,7 @@ matrix(x,ncol=5) #ncol needs to be the factor of total numbers in the matrix
 attributes(m1)
 dim(m1)
 m1
+sd(m1)
 
 #Access elements of matrix----
 m1[1,2:3] #first element of column 2 and 3
@@ -175,6 +176,7 @@ df1$gender = factor(df1$gender)
 df1$course = factor(df1$course)
 str(df1)
 summary(df1)
+distributions(x1)
 
 df1  #full data
 df1$gender  # one column
